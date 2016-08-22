@@ -1,0 +1,67 @@
+label{
+	display: block;
+	margin-bottom:10px;
+}
+
+input{
+    width: 70%;
+    padding: 12px 8px;
+	border: 1px solid #e1e1e1;
+}
+
+input:focus{
+	outline: none;
+    border: 1px solid #ef7915;
+}
+
+ul{
+	padding: 0;
+	width: 30%;
+	cursor: default;
+	border-right: 1px;
+	height: 200px; 
+    overflow-y:scroll;
+	border: 1px solid #ea591a;
+}
+
+li:hover,li:hover .text{
+	background-color:#f88f33;
+	color:white !important;
+	cursor:pointer;
+}
+
+label,.category{
+	font-weight: 700;
+}
+
+li,.category{
+	padding:10px;
+	list-style:none;
+}
+
+label,li,.category {
+	color:#578293;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.category {
+	margin:0;
+	background-color:#f2f2f2;
+}
+
+.ui-helper-hidden-accessible { 
+	display:none;
+}
+
+.clearable{
+  background: #fff url(http://i.stack.imgur.com/mJotv.gif) no-repeat right -10px center;
+  transition: background 0.2s;
+}
+
+.clearable.x  { 
+	background-position: right 5px center;
+}
+
+.clearable.onX{ cursor: pointer; }    
+         
+.clearable::-ms-clear {display: none;} 
